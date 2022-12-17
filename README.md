@@ -1,24 +1,21 @@
-# README
+Very simple crud, completely done using the TDD methodology.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+installation guide:
 
-Things you may want to cover:
+1- Download and install ruby 2.6.6 from `https://www.ruby-lang.org/en/downloads/`
 
-* Ruby version
+2 - Clone the repository: `git clone git@github.com:gustavomendess/tdd-repo.git`
 
-* System dependencies
+3 - Install the gems: `bundle install` or `bundle`
 
-* Configuration
+4 - run `bin/rails db:create db:migrate`
 
-* Database creation
+To run the system:
 
-* Database initialization
+`bin/rails -b 0.0.0.0`
 
-* How to run the test suite
+To run the tests:
 
-* Services (job queues, cache servers, search engines, etc.)
+`bin/rspec`
 
-* Deployment instructions
-
-* ...
+It is always preferable to use it from the bin folder, as it uses the rspec from the binaries folder of the rails installation, making execution faster.
